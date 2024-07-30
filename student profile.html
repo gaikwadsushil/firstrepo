@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studentprofile</title>
+    <style>
+       body{
+            overflow: hidden;
+            height: 500px;
+            margin: 600px;
+        }
+    </style>
+</head>
+<body>
+    <div class="Studentprofile-container"></div>
+    <h2>Create Profile</h2>
+    <form id="signin-form">
+        <div class="input-group">
+            <label for="First Name">First Name:</label>
+            <input type="text" id="First Name" name="First Name" required>
+        </div>
+        <div class="input-group">
+            <label for="Last Name">Last Name:</label>
+            <input type="text" id="Last Name" name="Last Name" required>
+        </div>
+        <div class="input-group">
+            <label for="Date of Birth">Date of Birth:</label>
+            <input type="date" id="Date of Birth" name="Date of Birth" required>
+        </div>
+        <div class="input-group">
+            <label for="Enter age">Enter age:</label>
+            <input type="text" id="Age" name="Age" required>
+        </div>
+        <div class="input-group">
+            <label>Gender</label>
+            <input type="radio" id="male" name="Gender" required>
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="Gender" required>
+            <label for="female">female</label>
+        </div>
+        <div class="input-group">
+            <label for="Current Address">Current Address:</label>
+            <textarea id="Current Address" name="Current Address" rows="2" cols="20"></textarea>
+        </div>
+        <div class="input-group">
+            <label for="Perment Address">perment Address:</label>
+            <textarea id="Perment Address" name="Perment Address" rows="2" cols="20"></textarea>
+        </div>
+        <button type="submit">Create</button>
+
+    </form>
+    
+</body>
+</html>
