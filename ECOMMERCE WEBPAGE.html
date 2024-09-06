@@ -1,0 +1,144 @@
+<html>
+<head>
+    <title>ITCART</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar {
+            background-color: #000;
+            color: #fff;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .navbar .logo a {
+            color: #007bff;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 20px;
+        }
+        .navbar .nav-links {
+            display: flex;
+            align-items: center;
+        }
+        .navbar .nav-links a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .navbar .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        .navbar .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #fff;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+        .navbar .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+        .navbar .dropdown-content a:hover {
+            background-color: #f1f1f1;
+        }
+        .navbar .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        .navbar .search-bar {
+            display: flex;
+            align-items: center;
+        }
+        .navbar .search-bar input[type="text"] {
+            padding: 5px;
+            font-size: 16px;
+        }
+        .navbar .search-bar button {
+            padding: 5px 10px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+        .container {
+            display: flex;
+            padding: 20px;
+        }
+        .sidebar {
+            width: 25%;
+            padding-right: 20px;
+        }
+        .sidebar h3 {
+            color: #007bff;
+        }
+        .sidebar a {
+            display: block;
+            color: #000;
+            text-decoration: none;
+            margin: 5px 0;
+        }
+        .content {
+            width: 75%;
+        }
+        .content h1 {
+            font-size: 24px;
+        }
+        .content h1 a {
+            color: #007bff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <a href="#">ITCART</a>
+        </div>
+        <div class="nav-links">
+            <a href="#">Home</a>
+            <a href="#">About Us</a>
+            <a href="#">Contact</a>
+            <div class="dropdown">
+                <a href="#">Account <i class="fas fa-caret-down"></i></a>
+                <div class="dropdown-content">
+                    <a href="#">Login</a>
+                    <a href="#">Register</a>
+                </div>
+            </div>
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search site">
+            <button>Search</button>
+        </div>
+    </div>
+    <div class="container">
+        <div class="sidebar">
+            <h3>Categories Available</h3>
+            <a href="#">Laptops</a>
+            <a href="#">Personal Computers</a>
+            <a href="#">Tablets</a>
+            <a href="#">Headphones</a>
+            <h3>Reviews</h3>
+            <a href="#">For Services</a>
+            <a href="#">For Products</a>
+            <a href="#">For Consultation</a>
+        </div>
+        <div class="content">
+            <h1>India’s Leading and Trusted tech paradise - <a href="#">ITCART</a></h1>
+            <p>Welcome to our tech paradise, where innovation meets convenience at the click of a button. Step into a world of cutting-edge technology and endless possibilities as you explore our curated collection of IT goods. From sleek laptops to powerful desktops, from state-of-the-art gadgets to must-have accessories, we have everything you need to stay ahead in the digital age. Whether you're a tech enthusiast, a professional, or simply looking to upgrade your devices, our comprehensive range has something for every need and budget.</p>
+            <p>Navigate our user-friendly interface with ease, and discover the latest in tech trends and innovations. With detailed product descriptions and customer reviews, making informed decisions has never been easier. Experience unmatched convenience with our secure payment options and lightning-fast delivery services, ensuring that your tech essentials reach you when you need them most. Plus, with our dedicated customer support team, assistance is just a click away. Join our community of tech aficionados and elevate your digital lifestyle today. Welcome to ITCART, where the future is just a few clicks away!"</p>
+        </div>
+    </div>
+</body>
+</html>
