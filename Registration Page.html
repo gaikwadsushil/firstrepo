@@ -1,0 +1,92 @@
+<html>
+<head>
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            text-align: center;
+        }
+        .container h1 {
+            font-size: 2em;
+            color: #333;
+        }
+        .registration-form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            margin: 0 auto;
+        }
+        .registration-form h2 {
+            margin-bottom: 20px;
+            font-size: 1.5em;
+            color: #333;
+        }
+        .registration-form input[type="text"],
+        .registration-form input[type="email"],
+        .registration-form input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .registration-form button {
+            width: 100%;
+            padding: 10px;
+            background-color: #007bff;
+            border: none;
+            border-radius: 5px;
+            color: #fff;
+            font-size: 1em;
+            cursor: pointer;
+        }
+        .registration-form button:hover {
+            background-color: #0056b3;
+        }
+        .registration-form .login-link {
+            margin-top: 10px;
+            display: block;
+            color: #007bff;
+            text-decoration: none;
+        }
+        .registration-form .login-link:hover {
+            text-decoration: underline;
+        }
+        .nav-link {
+            display: block;
+            margin-bottom: 20px;
+            color: #007bff;
+            text-decoration: none;
+        }
+        .nav-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="home.html" class="nav-link">Home</a>
+        <div class="registration-form">
+            <h2>Registration</h2>
+            <input type="text" placeholder="Enter username" required>
+            <input type="email" placeholder="Enter a valid email address" required>
+            <input type="password" placeholder="Password" required>
+            <input type="password" placeholder="Confirm password" required>
+            <button type="submit" onclick="window.location.href='register.html'">Register</button>
+            <a href="login.html" class="login-link">Already have an account? Login</a>
+        </div>
+    </div>
+</body>
+</html>
